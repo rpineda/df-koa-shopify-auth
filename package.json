@@ -1,0 +1,42 @@
+{
+  "name": "@digitalframe/df-koa-shopify-auth",
+  "version": "0.1.0",
+  "sideEffects": false,
+  "types": "src/index.d.ts",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpineda/df-koa-shopify-auth.git"
+  },
+  "keywords": [
+    "shopify",
+    "app",
+    "auth"
+  ],
+  "author": "Ricardo Pineda <ricardo@digitalframe.ws> (http://digitalframe.ws)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rpineda/df-koa-shopify-auth/issues"
+  },
+  "homepage": "https://github.com/rpineda/df-koa-shopify-auth#readme",
+  "bundleDependencies": false,
+  "dependencies": {
+    "nonce": "^1.0.4",
+    "safe-compare": "^1.1.2",
+    "tslib": "^1.9.3"
+  },
+  "deprecated": false,
+  "description": "[![Build Status](https://travis-ci.org/Shopify/quilt.svg?branch=master)](https://travis-ci.org/Shopify/quilt) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md) [![npm version](https://badge.fury.io/js/%40shopify%2Fkoa-shopify-auth.svg)](https://badge.fury.io/js/%40shopify%2Fkoa-shopify-auth)",
+  "devDependencies": {
+    "@shopify/jest-dom-mocks": "^2.7.1",
+    "@shopify/jest-koa-mocks": "^2.1.3",
+    "@types/koa": "^2.0.44",
+    "@types/safe-compare": "^1.1.0",
+    "koa": "^2.5.0",
+    "typescript": "~3.2.1",
+    "dotenv": "^6.2.0"
+  }
+}
