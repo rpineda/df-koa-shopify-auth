@@ -1,8 +1,8 @@
 {
-  "name": "@digitalframe/df-koa-shopify-auth",
+  "name": "@digitalframe.ws/df-koa-shopify-auth",
   "version": "0.1.0",
   "sideEffects": false,
-  "types": "src/index.d.ts",
+  "types": "src/types.js",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha --reporter spec"
